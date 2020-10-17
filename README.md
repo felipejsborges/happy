@@ -93,7 +93,7 @@ $ yarn dev
 - Show orphanages in map
 
 <div align="center">
-	<img src="/.github/map.gif" alt="map" style="max-width:100%"/>
+	<img src="/.github/map.png" alt="map" style="max-width:100%"/>
 </div>
 
 - Register new orphanages
