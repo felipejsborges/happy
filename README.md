@@ -1,9 +1,6 @@
 <div align="center">
-	<img src="/.github/banner.png" alt="banner" width="80%" />
-</div>
-
-<div align="center">
 	<h1>happy</h1>
+	<img src="/.github/banner.png" alt="banner" width="80%" />
 </div>
 
 <div align="center">
