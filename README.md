@@ -15,7 +15,7 @@ Happy is a project that was developed during **Next Level Week 3**. An online ev
 	<img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
 	<img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
 	<img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
-	<img alt="license" src="https://img.shields.io/github/license/felipejsborges/happy">
+	<img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">	
 	<!-- version, status da build, status dos testes -->
 </p>
 
