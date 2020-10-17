@@ -11,7 +11,14 @@ Happy is a project that was developed during **Next Level Week 3**. An online ev
 
 <br>
 
-<p align="center">  
+<p align="center">
+	<img alt="Repository size" src="https://img.shields.io/github/repo-size/felipejsborges/happy">
+	<a href="https://www.linkedin.com/in/felipejsborges/">
+	  <img alt="made by" src="https://img.shields.io/badge/made%20by-Felipe%20Borges-orange">
+	</a>
+	<a href="https://github.com/felipejsborges/happy/commits/master">
+	  <img alt="last commit" src="https://img.shields.io/github/last-commit/felipejsborges/happy">
+	</a>
 	<img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
 	<img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
 	<img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
@@ -84,6 +91,12 @@ $ yarn dev
 	<h3>Website 🖥️</h3>
 </div>
 
+<h4>Layout</h4>
+
+- [Click here](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web/duplicate) to access the website layout on Figma.
+
+<br>
+
 <h4>Features</h4>
 
 - Show orphanages in map
@@ -134,6 +147,12 @@ $ yarn start
 <div align="center">
 	<h3>Mobile app 📱</h3>
 </div>
+
+<h4>Layout</h4>
+
+- [Click here](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile/duplicate) to access the mobile app layout on Figma.
+
+<br>
 
 <h4>Features</h4>
 
