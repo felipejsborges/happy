@@ -94,18 +94,21 @@ $ yarn dev
 <div align="center">
 	<img src="/.github/map.png" alt="map" style="max-width:100%"/>
 </div>
+<br>
 
 - Register new orphanages
 
 <div align="center">
 	<img src="/.github/register.gif" alt="register" style="max-width:100%"/>
 </div>
+<br>
 
 - Show details of an orphanage
 
 <div align="center">
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
+<br>
 
 <h4>Main libs</h4>
  
