@@ -11,7 +11,7 @@
 	<h3>Description 🚪</h3>
 </div>
   
-Happy is a project that was developed during **Next Level Week**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. October 12th was the **children's day** in Brazil. So we created an application where orphanages could register and inform their location, and instruction to visit the children. So, users can access and **check on the map the registered orphanages** and get details of how to go there and play with the kids.
+Happy is a project that was developed during **Next Level Week**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. October 12th was the **children's day** in Brazil. So we created an application where orphanages could register and inform their location, and instructions to visit the children. So, users can access and **check on the map the registered orphanages** and get details of how to go there and play with the kids.
 
 <br>
 
