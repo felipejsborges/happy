@@ -62,7 +62,7 @@ Happy is a project that was developed during **Next Level Week 3**. An online ev
 
 <h4>How to run it on your computer</h4>
 
-- Install [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)(or use npm), and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
+- Install [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable) (or use npm), and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
 
 ```
 # clone this repo
