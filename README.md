@@ -4,9 +4,9 @@
 </div>
 
 <br>
-
-<h1>happy</h1>
-
+<div align="center">
+	<h1>happy</h1>
+</div>
 <br>
 
 <div align="center">
