@@ -140,19 +140,19 @@ $ yarn start
 - Show orphanages in map
 
 <div align="center">
-	<img src="/.github/map.gif" alt="map" style="max-width:100%"/>
+	<img src="/.github/mapmob.gif" alt="map" style="max-width:100%"/>
 </div>
 
 - Register new orphanages
 
 <div align="center">
-	<img src="/.github/register.gif" alt="register" style="max-width:100%"/>
+	<img src="/.github/registermob.gif" alt="register" style="max-width:100%"/>
 </div>
 
 - Show details of an orphanage
 
 <div align="center">
-	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
+	<img src="/.github/detailsmob.gif" alt="details" style="max-width:100%"/>
 </div>
 
 <h4>Main libs</h4>
