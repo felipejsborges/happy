@@ -51,7 +51,7 @@ Happy is a project that was developed during **Next Level Week 3**. An online ev
 
 <h4>Routes</h4>
 
-- [Download here](https://drive.google.com/file/d/1zpwo4oeFFc7hIjl6sJ_3sssnO63IPDjs/view?usp=sharing), and import it in [Insomnia](https://insomnia.rest/)
+- [Click here](.github/insomnia.json), download the file, and import it on [Insomnia](https://insomnia.rest/)
 
 <h4>Main libs</h4>
 
