@@ -1,5 +1,6 @@
 <div align="center">
-	<img alt="Happy Logo" src=".github/logo.svg" />
+	<img alt="Happy Logo" src=".github/logo.svg" color="#fff" />
+	<br>
 	<img src="/.github/banner.png" alt="banner" />
 </div>
 
