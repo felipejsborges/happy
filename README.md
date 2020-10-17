@@ -34,7 +34,9 @@ Happy is a project that was developed during **Next Level Week**. An online even
 
 <hr>
 
-<h3>Technologies 🚀</h3>
+<div align="center">
+	<h3>Technologies 🚀</h3>
+</div>
 
 - [TypeScript](https://www.typescriptlang.org/docs/home.html) language
 - [Node.js](https://nodejs.org/en/docs/) for the API
@@ -47,18 +49,18 @@ Happy is a project that was developed during **Next Level Week**. An online even
 	<h3>API 📡</h3>
 </div>
 
-<h3>Routes</h3>
+<h4>Routes</h4>
 
 - [Download here](https://drive.google.com/file/d/1zpwo4oeFFc7hIjl6sJ_3sssnO63IPDjs/view?usp=sharing), and import it in [Insomnia](https://insomnia.rest/)
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
 
 - [Express](https://expressjs.com/) as web application framework
 - [Sqlite3](https://www.sqlite.org/docs.html) and [TypeORM](https://typeorm.io/) for database
 - [Multer](https://www.npmjs.com/package/multer) to upload images
 - [Yup](https://www.npmjs.com/package/yup) for validation
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
 
 - Install [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
 
@@ -86,7 +88,7 @@ $ yarn dev
 	<h3>Website 🖥️</h3>
 </div>
 
-<h3>Features</h3>
+<h4>Features</h4>
 
 - Show orphanages in map
 
@@ -106,12 +108,12 @@ $ yarn dev
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
  
 - [Axios](https://github.com/axios/axios) to consume the API
 - [React Leaflet](https://react-leaflet.js.org/docs/en/intro) for [Leaflet](https://leafletjs.com/reference-1.6.0.html) as a React component
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
  
 ```
 # clone this repo
@@ -134,7 +136,7 @@ $ yarn start
 	<h3>Mobile app 📱</h3>
 </div>
 
-<h3>Features</h3>
+<h4>Features</h4>
 
 - Show orphanages in map
 
@@ -154,12 +156,12 @@ $ yarn start
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
 
 - [React Navigation](https://reactnavigation.org/docs/getting-started/) for routing and navigation
 - [React Native Maps](https://github.com/react-native-community/react-native-maps) to create a map as a component of React Native
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
 
 ```
 # clone this repo
