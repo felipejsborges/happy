@@ -1,32 +1,26 @@
 <div align="center">
-  <img alt="Happy Logo" src=".github/logo.svg" />
+	<img alt="Happy Logo" src=".github/logo.svg" />
 	<img src="/.github/banner.png" alt="banner" />
 </div>
 
-<br>
-
-<h1>happy</h1>
-
-<br>
+<div align="center">
+	<h1>happy</h1>
+</div>
 
 <div align="center">
 	<h3>Description 🚪</h3>
 </div>
-
-<p>
-  O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz
-  Ecoleta is a project that was developed during **Next Level Week**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. June 5th was also the **international environment day**. So we created a website where entities could register and inform what some **kind of material that can't be disposed in common garbage** that they are collecting, like batteries or cooking oil, for example. We also created an application where the user can access and **check on the map the points registered on the webiste** and locate where have one to discard some item they need.
-</p>
+  
+Happy is a project that was developed during **Next Level Week 3**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. October 12th was the **children's day** in Brazil. So we created an application where orphanages could register and inform their location, and instructions to visit the children. So, users can access and **check on the map the registered orphanages** and get details of how to go there and play with the kids.
 
 <br>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
-  /* Versão, licença, issues, status da build, status dos testes. */
-  <img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
-  <img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
-  <img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
-  <img alt="license" src="https://img.shields.io/github/license/felipejsborges/happy">
+<p align="center">  
+	<img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
+	<img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
+	<img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
+	<img alt="license" src="https://img.shields.io/github/license/felipejsborges/happy">
+	<!-- version, status da build, status dos testes -->
 </p>
 
 <br>
@@ -40,7 +34,9 @@
 
 <hr>
 
-<h3>Technologies 🚀</h3>
+<div align="center">
+	<h3>Technologies 🚀</h3>
+</div>
 
 - [TypeScript](https://www.typescriptlang.org/docs/home.html) language
 - [Node.js](https://nodejs.org/en/docs/) for the API
@@ -53,20 +49,20 @@
 	<h3>API 📡</h3>
 </div>
 
-<h3>Routes</h3>
+<h4>Routes</h4>
 
-- [Download here](https://drive.google.com/file/d/1zpwo4oeFFc7hIjl6sJ_3sssnO63IPDjs/view?usp=sharing), and import it in [Insomnia](https://insomnia.rest/)
+- [Click here](.github/insomnia.json), download the file, and import it on [Insomnia](https://insomnia.rest/)
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
 
 - [Express](https://expressjs.com/) as web application framework
 - [Sqlite3](https://www.sqlite.org/docs.html) and [TypeORM](https://typeorm.io/) for database
 - [Multer](https://www.npmjs.com/package/multer) to upload images
 - [Yup](https://www.npmjs.com/package/yup) for validation
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
 
-- Install [Node.js](https://nodejs.org/en/download/) and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
+- Install [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable) (or use npm), and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
 
 ```
 # clone this repo
@@ -92,7 +88,7 @@ $ yarn dev
 	<h3>Website 🖥️</h3>
 </div>
 
-<h3>Features</h3>
+<h4>Features</h4>
 
 - Show orphanages in map
 
@@ -112,12 +108,12 @@ $ yarn dev
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
  
 - [Axios](https://github.com/axios/axios) to consume the API
 - [React Leaflet](https://react-leaflet.js.org/docs/en/intro) for [Leaflet](https://leafletjs.com/reference-1.6.0.html) as a React component
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
  
 ```
 # clone this repo
@@ -140,7 +136,7 @@ $ yarn start
 	<h3>Mobile app 📱</h3>
 </div>
 
-<h3>Features</h3>
+<h4>Features</h4>
 
 - Show orphanages in map
 
@@ -160,12 +156,12 @@ $ yarn start
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
 
-<h3>Main libs</h3>
+<h4>Main libs</h4>
 
 - [React Navigation](https://reactnavigation.org/docs/getting-started/) for routing and navigation
 - [React Native Maps](https://github.com/react-native-community/react-native-maps) to create a map as a component of React Native
 
-<h3>How to run it on your computer</h3>
+<h4>How to run it on your computer</h4>
 
 ```
 # clone this repo
@@ -188,4 +184,17 @@ $ yarn start
 <span>Feel free to contribute 💪</span>
 
 by Felipe Borges<br>
-[Linkedin](https://www.linkedin.com/in/felipejsborges) | [GitHub](https://github.com/felipejsborges)
+<div>
+	<a href="https://www.linkedin.com/in/felipejsborges">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
+	</a>
+	<a href="https://www.youtube.com/channel/UC6tN_loxPGOP30LWNbJM7rg">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/youtube.svg" alt="YouTube">
+	</a>
+	<a href="https://wa.me/+55012996477129">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/whatsapp.svg" alt="WhatsApp">
+	</a>
+	<a href="mailto:felipejsborges@outlook.com">
+		<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/mail.svg" alt="E-mail">
+	</a>
+</div>
