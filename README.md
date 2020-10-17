@@ -186,15 +186,15 @@ $ yarn start
 by Felipe Borges<br>
 <a href="https://www.linkedin.com/in/felipejsborges">
 	<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/linkedin.svg" alt="LinkedIn">
-</a>&nbsp
+</a>
 
 <a href="https://www.youtube.com/channel/UC6tN_loxPGOP30LWNbJM7rg">
 	<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/youtube.svg" alt="YouTube">
-</a>&nbsp
+</a>
 
 <a href="https://wa.me/+55012996477129">
 	<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/whatsapp.svg" alt="WhatsApp">
-</a>&nbsp
+</a>
 
 <a href="mailto:felipejsborges@outlook.com">
 	<img width="32px" src="https://github.com/felipejsborges/felipejsborges/blob/master/assets/mail.svg" alt="E-mail">
