@@ -1,21 +1,18 @@
 <div align="center">
-  <img alt="Happy Logo" src=".github/logo.svg" />
+	<img alt="Happy Logo" src=".github/logo.svg" />
 	<img src="/.github/banner.png" alt="banner" />
 </div>
 
-<br>
 <div align="center">
 	<h1>happy</h1>
 </div>
-<br>
 
 <div align="center">
 	<h3>Description 🚪</h3>
 </div>
 
-<p>
-  O Happy é uma aplicação que conecta pessoas à casas de acolhimento institucional para fazer o dia de muitas crianças mais feliz
-  Ecoleta is a project that was developed during **Next Level Week**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. June 5th was also the **international environment day**. So we created a website where entities could register and inform what some **kind of material that can't be disposed in common garbage** that they are collecting, like batteries or cooking oil, for example. We also created an application where the user can access and **check on the map the points registered on the webiste** and locate where have one to discard some item they need.
+<p>  
+	Happy is a project that was developed during **Next Level Week**. An online event organized by [Rocketseat](https://rocketseat.com.br/) that aims to **up the career of developers** by challenging them to build a **complete application**. We built an API, a website and a mobile application. October 12th was the **children's day** in Brazil. So we created a website and a mobile application where orphanages could register and inform their location, and instruction to visit the children. So, users can access and **check on the map the registered orphanages** and get details of how to go there and play with the kids.
 </p>
 
 <br>
