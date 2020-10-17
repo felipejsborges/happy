@@ -17,13 +17,12 @@
 
 <br>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
-  /* Versão, licença, issues, status da build, status dos testes. */
-  <img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
-  <img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
-  <img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
-  <img alt="license" src="https://img.shields.io/github/license/felipejsborges/happy">
+<p align="center">  
+	<img alt="issues" src="https://img.shields.io/github/issues/felipejsborges/happy">
+	<img alt="forks" src="https://img.shields.io/github/forks/felipejsborges/happy">
+	<img alt="stars" src="https://img.shields.io/github/stars/felipejsborges/happy">
+	<img alt="license" src="https://img.shields.io/github/license/felipejsborges/happy">
+	<!-- version, status da build, status dos testes -->
 </p>
 
 <br>
