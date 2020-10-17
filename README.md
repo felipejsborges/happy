@@ -24,7 +24,7 @@ Happy is a project that was developed during **Next Level Week 3**. An online ev
 <h4 align="center">   
 	<a href="#technologies-">Technologies 🚀</a>		|    
   <a href="#api-">API 📡</a>		|    
-	<a href="#website-">Website 🖥️</a>		|    
+	<a href="#website-%EF%B8%8F">Website 🖥️</a>		|    
 	<a href="#mobile-app-">Mobile app 📱</a>
 </h4>
 
