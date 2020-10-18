@@ -103,7 +103,6 @@ $ yarn dev
 
 - [Click here](https://www.figma.com/file/mDEbnoojksG4w8sOxmudh3/Happy-Web/duplicate) to access the website layout on Figma.
 
-<br>
 
 <h4>Features</h4>
 
@@ -126,7 +125,6 @@ $ yarn dev
 <div align="center">
 	<img src="/.github/details.gif" alt="details" style="max-width:100%"/>
 </div>
-<br>
 
 <h4>Main libs</h4>
  
@@ -160,8 +158,6 @@ $ yarn start
 
 - [Click here](https://www.figma.com/file/X27FfVxAgy9f5IFa7ONlph/Happy-Mobile/duplicate) to access the mobile app layout on Figma.
 
-<br>
-
 <h4>Features</h4>
 
 - Show orphanages in map
@@ -180,7 +176,6 @@ $ yarn start
 <div align="center">
 	<img src="/.github/mobile2.gif" alt="show-details" style="max-width:100%"/>
 </div>
-<br>
 
 <h4>Main libs</h4>
 
