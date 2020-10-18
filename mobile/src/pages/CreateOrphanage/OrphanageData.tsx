@@ -24,7 +24,6 @@ export default function OrphanageData() {
   const [opening_hours, setOpeningHours] = useState('');
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
   const [images, setImages] = useState<string[]>([]);
-  const [previewImages, setPreviewImages] = useState<string[]>([]);
 
   const { position } = route.params as OrphanageDetailsRouteParams;
 
@@ -39,7 +38,7 @@ export default function OrphanageData() {
     const result = await ImagePicker.launchImageLibraryAsync({
       allowsEditing: true,
       quality: 1,
-      mediaTypes: ImagePicker.MediaTypeOptions.All,
+      mediaTypes: ImagePicker.MediaTypeOptions.Images,
     });
 
     if (result.cancelled) {
@@ -111,7 +110,7 @@ export default function OrphanageData() {
         ))}
       </View>
 
-      <TouchableOpacity style={styles.imagesInput} onPress={() => {}}>
+      <TouchableOpacity style={styles.imagesInput} onPress={handleSelectImages}>
         <Feather name="plus" size={24} color="#15B6D6" />
       </TouchableOpacity>
 
@@ -194,6 +193,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 32,
+  },
+
+  uploadedImagesContainer: {
+    flexDirection: 'row',
+  },
+
+  uploadedImage: {
+    width: 64,
+    height: 64,
+    borderRadius: 20,
+    marginBottom: 32,
+    marginRight: 8,
   },
 
   switchContainer: {

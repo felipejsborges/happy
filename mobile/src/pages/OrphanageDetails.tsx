@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Image, View, ScrollView, Text, StyleSheet, Dimensions, TouchableOpacity, Linking } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
-import { Feather, FontAwesome } from '@expo/vector-icons';
-import { RectButton } from 'react-native-gesture-handler';
+import { Feather } from '@expo/vector-icons';
 import { useRoute } from '@react-navigation/native';
 
 import api from '../services/api';
@@ -39,11 +38,7 @@ export default function OrphanageDetails() {
     api.get(`/orphanages/${id}`).then(response => {
       setOrphanage(response.data);
     })
-  }, [id]);
-
-  function handleOpenGoogleMapsRoutes() {
-    Linking.openURL(`https://www.google.com/maps/dir/?api=%27&destination=${orphanage?.latitude},${orphanage?.longitude}`);
-  }
+  }, [id]);  
 
   if (!orphanage) {
     return (
@@ -53,12 +48,16 @@ export default function OrphanageDetails() {
     );
   }
 
+  function handleOpenGoogleMapsRoutes() {
+    Linking.openURL(`https://www.google.com/maps/dir/?api=1&destination=${orphanage?.latitude},${orphanage?.longitude}`);
+  }
+
   return (
     <ScrollView style={styles.container}>
       <View style={styles.imagesContainer}>
         <ScrollView horizontal pagingEnabled>
           {orphanage.images.map(image => (
-            <Image style={styles.image} source={{ uri: image.url }} />      
+            <Image key={image.id} style={styles.image} source={{ uri: image.url }} />      
           ))}    
           
         </ScrollView>
@@ -113,16 +112,16 @@ export default function OrphanageDetails() {
             </View>
           ) : (
             <View style={[styles.scheduleItem, styles.scheduleItemRed]}>
-              <Feather name="info" size={40} color="#39CC83" />
+              <Feather name="info" size={40} color="#FF669D" />
               <Text style={[styles.scheduleText, styles.scheduleTextRed]}>Não atendemos fim de semana</Text>
             </View>
           )}
         </View>
 
-        <RectButton style={styles.contactButton} onPress={() => {}}>
+        {/* <RectButton style={styles.contactButton} onPress={() => {}}>
           <FontAwesome name="whatsapp" size={24} color="#FFF" />
           <Text style={styles.contactButtonText}>Entrar em contato</Text>
-        </RectButton>
+        </RectButton> */}
       </View>
     </ScrollView>
   )
@@ -218,6 +217,13 @@ const styles = StyleSheet.create({
     borderRadius: 20,
   },
 
+  scheduleItemRed: {
+    backgroundColor: '#FDF4F7',
+    borderWidth: 1,
+    borderColor: '#FFBCD4',
+    borderRadius: 20,
+  },
+
   scheduleText: {
     fontFamily: 'Nunito_600SemiBold',
     fontSize: 16,
@@ -231,6 +237,10 @@ const styles = StyleSheet.create({
 
   scheduleTextGreen: {
     color: '#37C77F'
+  },
+
+  scheduleTextRed: {
+    color: '#FF669D'
   },
 
   contactButton: {

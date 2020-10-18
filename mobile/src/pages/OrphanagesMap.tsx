@@ -7,7 +7,7 @@ import { Feather } from '@expo/vector-icons';
 
 import api from '../services/api';
 
-import mapMarker from '../../images/map-marker.png';
+import mapMarker from '../images/map-marker.png';
 
 interface Orphanage {
   id: number;
@@ -39,12 +39,12 @@ export default function OrphanagesMap() {
     <View style={styles.container}>
       <MapView
         provider={PROVIDER_GOOGLE}
-        style={styles.map}
+        style={styles.mapStyle}
         initialRegion={{
-          latitude: 0,
-          longitude: 0,
-          latitudeDelta: 0.008,
-          longitudeDelta: 0.008,
+          latitude: -23.1889557,
+          longitude: -45.8852187,
+          latitudeDelta: 0.05,
+          longitudeDelta: 0.05,
         }}
       >
         {orphanages.map(orphanage => {
@@ -72,8 +72,8 @@ export default function OrphanagesMap() {
       </MapView>
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>{orphanages.length} orphanatos encontrados</Text>
-        <RectButton style={styles.createOrphanageButton} onPress={handleNavigateToCreateOrphanage}>
+        <Text style={styles.footerText}>{orphanages.length} orfanatos encontrados</Text>
+        <RectButton style={styles.createOrphanage} onPress={handleNavigateToCreateOrphanage}>
           <Feather name="plus" size={20} color="#FFF" />
         </RectButton>
       </View>
