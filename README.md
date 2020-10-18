@@ -162,7 +162,7 @@ $ yarn start
 
 - Show orphanages in map
 <div align="center">
-	<img src="/.github/mapmob.jpg" alt="map" style="max-width:40%"/>
+	<img src="/.github/mapmob.jpg" alt="map" width="40%"/>
 </div>
 <br>
 
