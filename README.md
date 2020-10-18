@@ -164,16 +164,22 @@ $ yarn start
 
 <h4>Features</h4>
 
-- Show orphanages in map
+- Show orphanages in map and register new orphanages
 
-- Register new orphanages
+<br>
+
+<div align="center">
+	<img src="/.github/mobile1.gif" alt="register-orphanage" style="max-width:100%"/>
+</div>
+
+<br>
 
 - Show details of an orphanage
 
 <br>
 
 <div align="center">
-	<img src="/.github/mobile.gif" alt="mobile" style="max-width:100%"/>
+	<img src="/.github/mobile2.gif" alt="show-details" style="max-width:100%"/>
 </div>
 
 <br>
