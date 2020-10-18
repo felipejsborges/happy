@@ -162,19 +162,19 @@ $ yarn start
 
 - Show orphanages in map
 <div align="center">
-	<img src="/.github/mapmob.jpg" alt="map" style="max-width:100%"/>
+	<img src="/.github/mapmob.jpg" alt="map" style="max-width:40%"/>
 </div>
 <br>
 
 - Register new orphanages
 <div align="center">
-	<img src="/.github/mobile1.gif" alt="register-orphanage" style="max-width:100%"/>
+	<img src="/.github/mobile1.gif" alt="register-orphanage" style="max-width:40%"/>
 </div>
 <br>
 
 - Show details of an orphanage
 <div align="center">
-	<img src="/.github/mobile2.gif" alt="show-details" style="max-width:100%"/>
+	<img src="/.github/mobile2.gif" alt="show-details" style="max-width:40%"/>
 </div>
 
 <h4>Main libs</h4>
